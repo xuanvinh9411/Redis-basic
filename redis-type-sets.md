@@ -67,3 +67,9 @@
         SINTER friend1 friend2
         => 5 6 7 
 
+++ sản phẩm ko có trong giỏ hàng đối phương
+        SDIFF friend1 friend2
+        => 1 2 3 4
+
+         SDIFF friend2 friend=1
+        => 7 8 9 10
